@@ -24,4 +24,4 @@ LABEL version="1.0" \
       description="Test Application" \
       maintainer="Mauricio Ruiz <m4dicio@gmail.com>"
 
-CMD ["java", "-jar", "test-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "test-0.0.1-SNAPSHOT.jar", "--spring.profiles.active=docker"]
